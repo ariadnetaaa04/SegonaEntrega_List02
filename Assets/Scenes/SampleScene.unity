@@ -142,6 +142,10 @@ GameObject:
   - component: {fileID: 515012545}
   - component: {fileID: 515012546}
   - component: {fileID: 515012547}
+  - component: {fileID: 515012548}
+  - component: {fileID: 515012549}
+  - component: {fileID: 515012550}
+  - component: {fileID: 515012551}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -156,7 +160,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 515012536}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a24baa5b98c7e94b98b70487c44cf94, type: 3}
   m_Name: 
@@ -247,7 +251,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 515012536}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: faa1af211b2b5be438bf1195ef1a8281, type: 3}
   m_Name: 
@@ -260,7 +264,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 515012536}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e463690717d5cbf4bb647c8dd1affd1d, type: 3}
   m_Name: 
@@ -273,7 +277,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 515012536}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 495e179f06184ce4b874a339d2ebea84, type: 3}
   m_Name: 
@@ -287,7 +291,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 515012536}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ddeb5379dcdc0fa4c96213f1f9a47332, type: 3}
   m_Name: 
@@ -300,7 +304,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 515012536}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2c0eaab99f09d6a4f8e45dabc52e27e7, type: 3}
   m_Name: 
@@ -315,7 +319,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 515012536}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 52e12b53475575449a691e8475113240, type: 3}
   m_Name: 
@@ -323,6 +327,59 @@ MonoBehaviour:
   calc: division
   num1: 5
   num2: 2
+--- !u!114 &515012548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515012536}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257348ea6f15eba46b5f5e0d883edbff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  letter: b
+--- !u!114 &515012549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515012536}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d9b6225172d05a408a9ff514915b9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  month: november
+--- !u!114 &515012550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515012536}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8d9eaeb2a8082041925b4818083339a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  candy: 9
+  people: 5
+--- !u!114 &515012551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515012536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4c64b4db27ded74393a905bf3169b57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mult: 2
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
