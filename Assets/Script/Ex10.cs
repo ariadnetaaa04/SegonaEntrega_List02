@@ -2,19 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ex7_1 : MonoBehaviour
+public class Ex10 : MonoBehaviour
 {
-    public string letter;
+    public int year;
     // Start is called before the first frame update
     void Start()
     {
-    if (letter == "a" || letter == "e" || letter == "i" || letter == "o" || letter == "u")
+        if (year % 4 == 0 && year % 100 != 0 ||year % 400 == 0)
         {
-            Debug.Log($"The letter {letter} is a vowel.");
+            Debug.Log($"{year} is a leap year");
         }
         else
         {
-            Debug.Log($"The letter {letter} is a consonant");
+            Debug.Log($"{year} is not a leap year");
         }
     }
 

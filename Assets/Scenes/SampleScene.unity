@@ -142,10 +142,9 @@ GameObject:
   - component: {fileID: 515012545}
   - component: {fileID: 515012546}
   - component: {fileID: 515012547}
-  - component: {fileID: 515012548}
-  - component: {fileID: 515012549}
-  - component: {fileID: 515012550}
-  - component: {fileID: 515012551}
+  - component: {fileID: 515012552}
+  - component: {fileID: 515012553}
+  - component: {fileID: 515012554}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -327,7 +326,7 @@ MonoBehaviour:
   calc: division
   num1: 5
   num2: 2
---- !u!114 &515012548
+--- !u!114 &515012552
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -336,11 +335,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 515012536}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 257348ea6f15eba46b5f5e0d883edbff, type: 3}
+  m_Script: {fileID: 11500000, guid: 6176c5643c087e64f9186e6a2306450b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  letter: b
---- !u!114 &515012549
+  points: 85
+--- !u!114 &515012553
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -349,25 +348,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 515012536}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d9b6225172d05a408a9ff514915b9d4, type: 3}
+  m_Script: {fileID: 11500000, guid: f816a9ac8553b4644b5c2487425290d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  month: november
---- !u!114 &515012550
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515012536}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8d9eaeb2a8082041925b4818083339a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  candy: 9
-  people: 5
---- !u!114 &515012551
+  wantsVegetarianOption: 0
+--- !u!114 &515012554
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -376,10 +361,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 515012536}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4c64b4db27ded74393a905bf3169b57, type: 3}
+  m_Script: {fileID: 11500000, guid: 3c9f7823b042eae48bbcb6539207e334, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mult: 2
+  year: 2008
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
